@@ -11,7 +11,7 @@ contract HelloWorld{
     }
 
     //getter function for the unsigned integer
-    function getData public view returns(uint){
+    function getData() public view returns(uint){
         return data;
     }
 
